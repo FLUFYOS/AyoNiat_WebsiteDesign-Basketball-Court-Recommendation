@@ -1,6 +1,13 @@
-# Basketball Court Recommendation Website.
+# <//===Basketball Court Recommendation Website===\\>
 
-@2025 FLUFYOS Copyright
+
+# About this repository:
+This is my another website design project for training purposes.
+
+
+# License:
+Released under MIT License
+@2025 FLUFYOS
 
 @2025 ArviNR, @arviansyahyk@gmail.com
 
