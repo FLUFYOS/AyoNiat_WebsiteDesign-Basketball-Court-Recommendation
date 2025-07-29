@@ -13,5 +13,4 @@ Released under MIT License
 
 All right reserved.
 
-
-![ASCII art](images/ASCII_bannerArt.png)
+<img src="images/ASCII_bannerArt.png" alt="asciiArt" width="100px" />
