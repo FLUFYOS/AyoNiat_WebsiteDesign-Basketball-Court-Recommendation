@@ -1,3 +1,60 @@
 * {
     font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
+
+header {
+    background: linear-gradient(45deg, #f1ad47, #f9b152, #ead72f, #f2ef29);
+    padding: 28px 42px;
+}
+
+section {
+    padding: 64px 103.55px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.navbar h1 {
+    font-size: 32px;
+    background: linear-gradient(45deg, #064bb8, #3c5cec, #1084ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pipe-h1 {
+    background: linear-gradient(45deg, #8190d3, #6896c8);
+    width: 130px;
+    height: 1.5px;
+    right: -5px;
+    bottom: 4px;
+    position: absolute;
+}
+
+.navbar div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(45deg, #3c5cec, #1084ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
