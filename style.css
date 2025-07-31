@@ -28,6 +28,10 @@ section {
 }
 
 .navbar h1 {
+    cursor: default;
+}
+
+h1 {
     font-size: 32px;
     background: linear-gradient(45deg, #064bb8, #3c5cec, #1084ff);
     background-clip: text;
@@ -58,3 +62,75 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
+.landing-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.div-landing-welcome h1 {
+    padding: 2px 0 16px 0;
+    font-size: 64px;
+}
+
+.div-landing-welcome h3 {
+    font-size: 24px;
+}
+
+.div-landing-img {
+    position: absolute;
+    left: 260px;
+    bottom: 116px;
+    animation: 2s upDown infinite;
+}
+
+.a-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
+    text-decoration: none;
+}
+
+.a-info div {
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 0 10px 0;
+}
+
+.arrow {
+    height: 100%;
+    width: auto;
+    animation: 3s upDown1 infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateX(6px);
+    }
+
+    100% {
+        transform: translateY(4px);
+    }
+}
+
+@keyframes upDown1 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(6px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
