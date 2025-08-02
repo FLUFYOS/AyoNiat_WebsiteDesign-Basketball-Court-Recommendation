@@ -8,10 +8,27 @@
 header {
     background: linear-gradient(45deg, #f1ad47, #f9b152, #ead72f, #f2ef29);
     padding: 28px 42px;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
 }
 
 section {
     padding: 64px 103.55px;
+    position: relative;
+}
+
+section::before {
+    z-index: -1;
+    content: '';
+    font-size: 64px;
+    background: linear-gradient(45deg, #064bb8, #3c5cec, #1084ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.5;
+    position: absolute;
+    font-weight: 600;
+    top: 10px;
 }
 
 .navbar {
@@ -105,6 +122,29 @@ h1 {
     height: 100%;
     width: auto;
     animation: 3s upDown1 infinite;
+}
+
+section#about {
+    padding-top: 128px;
+}
+
+#about {
+    margin-top: 48px;
+}
+
+#about::before {
+    content: 'About Us';
+}
+
+#about div img:nth-child(1) {
+    top: 28px;
+    left: 390px;
+    position: absolute;
+}
+
+#about div:nth-child(2) {
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes upDown {
