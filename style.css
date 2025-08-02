@@ -107,6 +107,11 @@ h1 {
     animation: 3s upDown1 infinite;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(4px);
