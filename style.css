@@ -29,6 +29,7 @@ section::before {
     opacity: 0.5;
     position: absolute;
     font-weight: 700;
+    font-weight: 600;
     top: 10px;
 }
 
@@ -127,6 +128,7 @@ h1 {
 
 section#about {
     padding-top: 148px;
+    padding-top: 128px;
 }
 
 #about {
@@ -181,6 +183,16 @@ section#about {
 }
 
 .about-menu {
+    content: 'About Us';
+}
+
+#about div img:nth-child(1) {
+    top: 28px;
+    left: 390px;
+    position: absolute;
+}
+
+#about div:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
