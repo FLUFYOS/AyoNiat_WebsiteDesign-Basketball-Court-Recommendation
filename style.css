@@ -248,6 +248,32 @@ section#about {
     content: 'FLUFYOS Company 2';
 }
 
+section#court {
+    padding-top: 148px;
+}
+
+#court {
+    margin-top: 48px;
+}
+
+#carouselExample {
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExample img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(4px);
