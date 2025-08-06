@@ -22,7 +22,7 @@ section {
 section::before {
     z-index: -1;
     content: '';
-    font-size: 64px;
+    font-size: 58px;
     background: linear-gradient(45deg, #064bb8, #3c5cec, #1084ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,6 +51,7 @@ section::before {
 
 h1 {
     font-size: 32px;
+    font-weight: 700;
     background: linear-gradient(45deg, #064bb8, #3c5cec, #1084ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,6 +64,10 @@ h1 {
     right: -5px;
     bottom: 4px;
     position: absolute;
+}
+
+h3 {
+    font-weight: 700;
 }
 
 .navbar div:nth-child(2) {
@@ -139,7 +144,7 @@ section#about {
 
 .div-img img {
     top: 28px;
-    left: 398px;
+    left: 370px;
     position: absolute;
 }
 
@@ -154,7 +159,7 @@ section#about {
 }
 
 .div-h1 h1:nth-of-type(1) {
-    font-size: 26px;
+    font-size: 24px;
     padding: 0 0 80px 0;
 }
 
@@ -168,7 +173,7 @@ section#about {
 }
 
 .div-h1 h1:nth-of-type(2) {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .div-h1 img:nth-of-type(2) {
@@ -234,6 +239,47 @@ section#about {
 
 #about-2:hover::after {
     content: 'FLUFYOS Company 2';
+}
+
+section#court {
+    padding-top: 148px;
+}
+
+#court {
+    margin-top: 48px;
+}
+
+#court::before {
+    content: 'Nearest Court';
+}
+
+.h1-court h1 {
+    font-size: 28px;
+    padding: 0 0 32px 0;
+}
+
+#carousel {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#carousel-1 {
+    border: solid 1px black;
+    width: 400px;
+}
+
+#carousel-2 {
+    width: 400px;
+}
+
+#carousel-3 {
+    width: 400px;
+}
+
+#carousel-4 {
+    width: 400px;
 }
 
 @keyframes upDown {
