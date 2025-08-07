@@ -266,8 +266,17 @@ section#court {
 }
 
 #carousel-1 {
-    border: solid 1px black;
+    position: relative;
+    border-radius: 18px;
+    padding: 20px 30px;
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    z-index: 0;
+    overflow: hidden;
     width: 400px;
+}
+
+.carousel::before {
+    content: '';
 }
 
 #carousel-2 {
