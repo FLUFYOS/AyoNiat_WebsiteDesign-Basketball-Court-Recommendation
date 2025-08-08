@@ -265,12 +265,30 @@ section#court {
     gap: 30px;
 }
 
-#carousel-1 {
-    border: solid 1px black;
+
+#carousel-1 { 
+    position: relative;
+    border-radius: 18px;
+    padding: 20px 30px;
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    z-index: 0;
+    overflow: hidden;
     width: 400px;
 }
 
-#carousel-2 {
+#carousel-1::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    right: 4px;
+    left: 4px;
+    background: white;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+#carousel-2 { /* Lanjut bagian ini!  */
     width: 400px;
 }
 
