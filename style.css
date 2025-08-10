@@ -288,16 +288,88 @@ section#court {
     z-index: -1;
 }
 
-#carousel-2 { /* Lanjut bagian ini!  */
+#carousel-2 { /* Lanjut bagian ini! */
+    position: relative;
+    border-radius: 18px;
+    padding: 20px 30px;
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    z-index: 0;
+    overflow: hidden;
     width: 400px;
+}
+
+#carousel-2::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    right: 4px;
+    left: 4px;
+    background: white;
+    border-radius: 16px;
+    z-index: -1;
 }
 
 #carousel-3 {
+    position: relative;
+    border-radius: 18px;
+    padding: 20px 30px;
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    z-index: 0;
+    overflow: hidden;
     width: 400px;
 }
 
+#carousel-3::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    right: 4px;
+    left: 4px;
+    background: white;
+    border-radius: 16px;
+    z-index: -1;
+}
+
 #carousel-4 {
+    position: relative;
+    border-radius: 18px;
+    padding: 20px 30px;
+    background: linear-gradient(45deg, #f8e12f, #ff9d00);
+    z-index: 0;
+    overflow: hidden;
     width: 400px;
+}
+
+#carousel-4::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    right: 4px;
+    left: 4px;
+    background: white;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.pipe-carousel {
+    background: black;
+    border-radius: 50px;
+    width: 340px;
+    height: 2px;
+    position: absolute;
+}
+
+.location-div {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 4px 0;
+}
+
+.location-div h1 {
+    font-size: 26px;
 }
 
 @keyframes upDown {
