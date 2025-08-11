@@ -260,11 +260,10 @@ section#court {
 
 #carousel {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
 
 #carousel-1 { 
     position: relative;
