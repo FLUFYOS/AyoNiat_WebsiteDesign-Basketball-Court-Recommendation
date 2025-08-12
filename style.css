@@ -49,6 +49,13 @@ section::before {
     cursor: default;
 }
 
+.nav-link {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
+}
+
 h1 {
     font-size: 32px;
     font-weight: 700;
