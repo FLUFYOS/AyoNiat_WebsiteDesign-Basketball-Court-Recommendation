@@ -371,6 +371,42 @@ section#court {
     font-size: 26px;
 }
 
+section#contact {
+    padding-top: 148px;
+}
+
+#contact {
+    margin-top: 48px;
+}
+
+#contact::before {
+    content: 'My Contact';
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.h1-contact {
+    padding: 0 0 32px 0;
+}
+
+.card {
+    width: 500px;
+}
+
+.card img {
+    width: 160px;
+}
+
+.div-img-card {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(4px);
