@@ -402,6 +402,13 @@ section#contact {
 
 .card {
     width: 500px;
+    transition: 1s;
+    box-shadow: 2px 4px 9px rgba(179, 179, 179, 0.5);
+}
+
+.card:hover {
+    transform: scale(0.9);
+    box-shadow: 2px 3px 32px rgba(179, 179, 179, 0.5);
 }
 
 .card img {
