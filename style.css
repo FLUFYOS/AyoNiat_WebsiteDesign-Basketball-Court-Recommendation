@@ -49,6 +49,13 @@ section::before {
     cursor: default;
 }
 
+.nav-link {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
+}
+
 h1 {
     font-size: 32px;
     font-weight: 700;
@@ -395,6 +402,13 @@ section#contact {
 
 .card {
     width: 500px;
+    transition: 1s;
+    box-shadow: 2px 4px 9px rgba(179, 179, 179, 0.5);
+}
+
+.card:hover {
+    transform: scale(0.9);
+    box-shadow: 2px 3px 32px rgba(179, 179, 179, 0.5);
 }
 
 .card img {
