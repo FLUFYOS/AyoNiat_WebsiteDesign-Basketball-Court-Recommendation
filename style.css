@@ -54,6 +54,21 @@ section::before {
     position: relative;
 }
 
+.navbar div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(45deg, #3c5cec, #1084ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .navbar h1 {
     cursor: default;
 }
@@ -91,7 +106,6 @@ section::before {
 .navbar ul a:hover::after {
     transform: scaleX(1); /* full saat hover */
 }
-
 /* Navbar End */
 
 
@@ -116,20 +130,6 @@ h3 {
     font-weight: 700;
 }
 
-.navbar div:nth-child(2) {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-
-.navbar a {
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    background: linear-gradient(45deg, #3c5cec, #1084ff);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .landing-item {
     display: flex;
