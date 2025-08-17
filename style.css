@@ -9,8 +9,16 @@ header {
     background: linear-gradient(45deg, #f1ad47, #f9b152, #ead72f, #f2ef29);
     padding: 28px 42px;
     top: 0;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 11px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     position: sticky;
     z-index: 1000;
+}
+
+header:hover {
+    box-shadow: 0 3px 24px rgb(0, 0, 0, 0.5);
 }
 
 section {
@@ -32,10 +40,11 @@ section::before {
     top: 10px;
 }
 
+
+/* Navbar Start */
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navbar div:nth-child(1) {
@@ -55,6 +64,36 @@ section::before {
     list-style: none;
     gap: 16px;
 }
+
+.navbar ul a {
+    position: relative;
+    transition: color 0.5s ease;
+}
+
+.navbar ul a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* jarak underline */
+    width: 100%;
+    height: 2px;
+    border-radius: 50px;
+    background: currentColor; /* Membuat warna sama dengan teks */
+    transition: transform 0.5s ease;
+    transform: scaleX(0); /* mulai dari 0 */
+    transform-origin: center; /* mulai dari tengah */
+}
+
+.navbar ul a:hover {
+    color: #1084ff;
+}
+
+.navbar ul a:hover::after {
+    transform: scaleX(1); /* full saat hover */
+}
+
+/* Navbar End */
+
 
 h1 {
     font-size: 32px;
