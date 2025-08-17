@@ -106,6 +106,14 @@ section::before {
 .navbar ul a:hover::after {
     transform: scaleX(1); /* full saat hover */
 }
+
+.navbar ul a:active {
+    color: #1084ff;
+}
+
+.navbar ul a.active::after {
+    transform: scaleX(1);
+}
 /* Navbar End */
 
 
