@@ -107,13 +107,14 @@ section::before {
     transform: scaleX(1); /* full saat hover */
 }
 
-.navbar ul a:active {
+/* Fungsi Underline pada beranda */
+ /* .navbar ul a.active {
     color: #1084ff;
 }
 
 .navbar ul a.active::after {
     transform: scaleX(1);
-}
+} */
 /* Navbar End */
 
 
@@ -573,7 +574,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 1054px) {
+@media only screen and (max-width: 1054px) { /* melanjutkan fitur hamburger */
     .card-div {
         flex-direction: column;
         align-items: center;
