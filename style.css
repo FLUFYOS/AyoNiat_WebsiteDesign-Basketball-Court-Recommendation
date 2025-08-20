@@ -382,7 +382,7 @@ section#court {
     z-index: -1;
 }
 
-#carousel-2 { /* Lanjut bagian ini! */
+#carousel-2 {
     position: relative;
     border-radius: 18px;
     padding: 20px 30px;
@@ -581,7 +581,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 1054px) { /* melanjutkan fitur hamburger */
+@media only screen and (max-width: 1054px) {
     .div-h1 {
         padding: 0 100px 0 0;
     }
@@ -665,4 +665,8 @@ footer a {
     .pipe-carousel {
         width: 140px;
     }
+}
+
+@media only screen and (max-width: 732px) { /* Lanjutin fitur hamburger dimulai disini */
+
 }
