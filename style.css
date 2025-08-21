@@ -107,13 +107,14 @@ section::before {
     transform: scaleX(1); /* full saat hover */
 }
 
-.navbar ul a:active {
+/* Fungsi Underline pada beranda */
+ /* .navbar ul a.active {
     color: #1084ff;
 }
 
 .navbar ul a.active::after {
     transform: scaleX(1);
-}
+} */
 /* Navbar End */
 
 
@@ -193,10 +194,14 @@ h3 {
 }
 
 .div-landing-img {
-    position: absolute;
     left: 260px;
-    bottom: 116px;
+    bottom: 140px;
     animation: 2s upDown infinite;
+    position: absolute;
+}
+
+.div-landing-img img {
+    width: 100px;
 }
 
 .a-info {
@@ -249,8 +254,11 @@ section#about {
     padding: 0 300px 0 0;
 }
 
-.div-h1 h1:nth-of-type(1) {
+.div-h1 h1 {
     font-size: 24px;
+}
+
+.div-h1 h1:nth-of-type(1) {
     padding: 0 0 80px 0;
 }
 
@@ -261,10 +269,6 @@ section#about {
     opacity: 0.3;
     z-index: -1;
     transform: rotate(45deg);
-}
-
-.div-h1 h1:nth-of-type(2) {
-    font-size: 24px;
 }
 
 .div-h1 img:nth-of-type(2) {
@@ -378,7 +382,7 @@ section#court {
     z-index: -1;
 }
 
-#carousel-2 { /* Lanjut bagian ini! */
+#carousel-2 {
     position: relative;
     border-radius: 18px;
     padding: 20px 30px;
@@ -456,6 +460,10 @@ section#court {
     display: flex;
     align-items: center;
     padding: 16px 0 4px 0;
+}
+
+.location-div img {
+    width: 50px;
 }
 
 .location-div h1 {
@@ -574,6 +582,10 @@ footer a {
 }
 
 @media only screen and (max-width: 1054px) {
+    .div-h1 {
+        padding: 0 100px 0 0;
+    }
+
     .card-div {
         flex-direction: column;
         align-items: center;
@@ -588,7 +600,73 @@ footer a {
         gap: 0;
     }
 
-    .div-h1 {
-        padding: 0 100px 0 0;
+    .pipe-carousel {
+        width: 240px;
     }
+}
+
+
+@media only screen and (max-width: 840px) {
+    .landing-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .div-landing-img {
+        bottom: 340px;
+    }
+
+    .about-div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .about-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-h1 {
+        padding: 0;
+    }
+
+    .div-h1 h1:nth-of-type(1) {
+        padding: 0 0 40px 0;
+    }
+
+    .div-h1 h1:nth-of-type(2) {
+        padding: 0 0 70px 0;
+    }
+    
+    #carousel-1, 
+    #carousel-2, 
+    #carousel-3, 
+    #carousel-4 {
+        width: 200px;
+        height: 300px;
+    }
+
+    #carousel-1 h1:nth-child(1), 
+    #carousel-2 h1:nth-child(1), 
+    #carousel-3 h1:nth-child(1), 
+    #carousel-4 h1:nth-child(1) {
+        font-size: 24px;
+    }
+
+    .location-div img {
+        width: 36px;
+    }
+
+    .location-div h1 {
+        font-size: 18px;
+    }
+
+    .pipe-carousel {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 732px) { /* Lanjutin fitur hamburger dimulai disini */
+
 }
