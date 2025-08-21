@@ -6,19 +6,9 @@
 }
 
 header {
-    background: linear-gradient(45deg, #f1ad47, #f9b152, #ead72f, #f2ef29);
-    padding: 28px 42px;
-    top: 0;
-    align-items: center;
-    border-radius: 0 0 30px 30px;
-    box-shadow: 0 2px 11px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     position: sticky;
+    top: 0;
     z-index: 1000;
-}
-
-header:hover {
-    box-shadow: 0 3px 24px rgb(0, 0, 0, 0.5);
 }
 
 section {
@@ -45,6 +35,16 @@ section::before {
 .navbar {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(45deg, #f1ad47, #f9b152, #ead72f, #f2ef29);
+    padding: 28px 42px;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 11px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar:hover {
+    box-shadow: 0 3px 24px rgb(0, 0, 0, 0.5);
 }
 
 .navbar div:nth-child(1) {
@@ -52,12 +52,6 @@ section::before {
     align-items: center;
     gap: 20px;
     position: relative;
-}
-
-.navbar div:nth-child(2) {
-    display: flex;
-    align-items: center;
-    gap: 14px;
 }
 
 .navbar a {
@@ -143,6 +137,7 @@ section::before {
 }
 /* Hamburger Menu End */
 
+/* Hamburger navbar becomes X Start */
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(9.5px) rotate(45deg);
 }
@@ -154,6 +149,7 @@ section::before {
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-9.5px) rotate(-45deg);
 }
+/* Hamburger navbar becomes X End */
 
 h1 {
     font-size: 32px;
@@ -668,5 +664,53 @@ footer a {
 }
 
 @media only screen and (max-width: 732px) { /* Lanjutin fitur hamburger dimulai disini */
+    /* hamburger menu start */
+    #navbar.active {
+        border-radius: 0;
+    }
 
+    .navbar {
+        transition: box-shadow 0.3s ease-in-out, border-radius 1s ease-in-out;
+    }
+
+    .navbar:hover {
+    box-shadow: 0 3px 24px rgb(0, 0, 0, 0.5);
+}
+    
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        gap: 6px;
+        background: linear-gradient(45deg, #f1ad47, #f9b152);
+        opacity: 0.5s;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .nav-link.open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 50px 50px;
+        max-height: 500px;
+        opacity: 0.9;
+    }
+
+    .nav-link li {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .nav-link a {
+        display: block;
+    }
+    /* hamburger menu end */
 }
