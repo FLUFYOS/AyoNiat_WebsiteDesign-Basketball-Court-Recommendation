@@ -718,3 +718,26 @@ footer a {
     }
     /* hamburger menu end */
 }
+
+@media only screen and (max-width: 640px) {
+    #carousel {
+        gap: 20px;
+    }
+
+    #carousel-1, 
+    #carousel-2, 
+    #carousel-3, 
+    #carousel-4 {
+        width: 170px;
+        height: 260px;
+    }
+
+    .pipe-carousel {
+        width: 114px;
+    }
+
+
+    .location-div h1 {
+        font-size: 14px;
+    }
+}
