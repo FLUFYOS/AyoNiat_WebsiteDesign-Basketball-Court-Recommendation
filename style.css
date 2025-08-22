@@ -608,6 +608,10 @@ footer a {
         align-items: flex-start;
     }
 
+    .div-landing-welcome {
+        padding: 0 0 16px 0;
+    }
+
     .div-landing-img {
         bottom: 340px;
     }
