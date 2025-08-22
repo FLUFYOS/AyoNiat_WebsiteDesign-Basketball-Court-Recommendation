@@ -741,3 +741,7 @@ footer a {
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 570px) {
+    /* Lanjut disini dibagian carousel */
+}
