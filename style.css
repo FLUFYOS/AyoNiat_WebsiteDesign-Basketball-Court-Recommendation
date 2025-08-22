@@ -608,6 +608,10 @@ footer a {
         align-items: flex-start;
     }
 
+    .div-landing-welcome {
+        padding: 0 0 16px 0;
+    }
+
     .div-landing-img {
         bottom: 340px;
     }
@@ -713,4 +717,31 @@ footer a {
         display: block;
     }
     /* hamburger menu end */
+}
+
+@media only screen and (max-width: 640px) {
+    #carousel {
+        gap: 20px;
+    }
+
+    #carousel-1, 
+    #carousel-2, 
+    #carousel-3, 
+    #carousel-4 {
+        width: 170px;
+        height: 260px;
+    }
+
+    .pipe-carousel {
+        width: 114px;
+    }
+
+
+    .location-div h1 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    /* Lanjut disini dibagian carousel */
 }
