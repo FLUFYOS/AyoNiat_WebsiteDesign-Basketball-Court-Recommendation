@@ -760,4 +760,37 @@ footer a {
 
 @media only screen and (max-width: 570px) {
     /* Lanjut disini dibagian carousel */
+    #carousel-1, 
+    #carousel-2, 
+    #carousel-3,
+    #carousel-4 {
+        width: 120px;
+        height: 210px;
+    }
+
+    #carousel-1 h1:nth-child(1), 
+    #carousel-2 h1:nth-child(1), 
+    #carousel-3 h1:nth-child(1), 
+    #carousel-4 h1:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .pipe-carousel {
+        width: 64px;
+    }
+
+    .location-div {
+        flex-direction: column;
+        padding: 4px 0 0 0;
+    }
+
+    .location-div img {
+        width: 28px;
+    }
+
+    .location-div h1 {
+        text-align: center;
+        font-size: 10px;
+        margin: 0;
+    }
 }
