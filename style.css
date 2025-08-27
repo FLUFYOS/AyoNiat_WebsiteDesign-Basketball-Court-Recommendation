@@ -683,6 +683,10 @@ footer a {
     }
 }
 
+@media only screen and (max-width: 764px) {
+    /* Lanjut bagian ini pada animasi gambar orang nge shoot */
+}
+
 @media only screen and (max-width: 732px) { /* Lanjutin fitur hamburger dimulai disini */
     /* hamburger menu start */
     #navbar.active {
@@ -762,7 +766,6 @@ footer a {
 }
 
 @media only screen and (max-width: 570px) {
-    /* Lanjut disini dibagian carousel */
     #carousel-1, 
     #carousel-2, 
     #carousel-3,
