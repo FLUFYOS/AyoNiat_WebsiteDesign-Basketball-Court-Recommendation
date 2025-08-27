@@ -752,9 +752,12 @@ footer a {
         width: 114px;
     }
 
-
     .location-div h1 {
         font-size: 14px;
+    }
+
+    .card {
+        width: 400px;
     }
 }
 
