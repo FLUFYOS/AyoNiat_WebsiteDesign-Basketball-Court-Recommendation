@@ -788,6 +788,14 @@ footer a {
     .about-item img {
         width: 300px;
     }
+
+    section#court::before {
+        font-size: 46px;
+    }
+
+    .h1-court h1 {
+        font-size: 24px;
+    }
     
     #carousel-1, 
     #carousel-2, 
