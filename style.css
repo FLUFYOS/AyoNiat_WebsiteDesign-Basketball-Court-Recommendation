@@ -789,12 +789,16 @@ footer a {
         width: 300px;
     }
 
+    section#court {
+        padding-top: 128px;
+    }
+
     section#court::before {
         font-size: 46px;
     }
 
     .h1-court h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     #carousel-1, 
