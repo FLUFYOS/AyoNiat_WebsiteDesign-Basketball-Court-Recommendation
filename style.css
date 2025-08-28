@@ -834,6 +834,10 @@ footer a {
         font-size: 10px;
         margin: 0;
     }
+
+    .card {
+        width: 350px;
+    }
 }
 
 @media only screen and (max-width: 514px) {
@@ -844,4 +848,8 @@ footer a {
     .about-item img {
         width: 250px;
     }
+}
+
+@media only screen and (max-width: 460px) {
+    /* Lanjutin bagian ini pada .about-img */
 }
