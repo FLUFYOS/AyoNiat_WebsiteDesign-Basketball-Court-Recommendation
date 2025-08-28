@@ -316,6 +316,10 @@ section#about {
     width: 360px;
 }
 
+.about-item img {
+    width: 360px;
+}
+
 .about-item:after {
     content: '';
     font-weight: 700;
@@ -629,7 +633,7 @@ footer a {
     }
 
     .div-landing-img {
-        bottom: 340px;
+        bottom: 350px;
     }
 
     .about-div {
@@ -641,6 +645,7 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 16px;
     }
 
     .div-h1 {
@@ -683,8 +688,10 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 764px) {
-    /* Lanjut bagian ini pada animasi gambar orang nge shoot */
+@media only screen and (max-width: 762px) {
+    .div-landing-img {
+        bottom: 380px;
+    }
 }
 
 @media only screen and (max-width: 732px) {
@@ -766,6 +773,22 @@ footer a {
 }
 
 @media only screen and (max-width: 570px) {
+    .div-landing-img {
+        left: 245px;
+    }
+
+    .div-landing-img img {
+        width: 80px;
+    }
+
+    .about-item {
+        width: 300px;
+    }
+    
+    .about-item img {
+        width: 300px;
+    }
+    
     #carousel-1, 
     #carousel-2, 
     #carousel-3,
