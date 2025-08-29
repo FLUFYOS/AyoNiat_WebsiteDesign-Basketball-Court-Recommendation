@@ -873,4 +873,12 @@ footer a {
         top: 80px;
         left: 80px;
     }
+
+    .div-footer h2 {
+        font-size: 24px;
+    }
+
+    .div-footer h5 {
+        font-size: 16px;
+    }
 }
