@@ -798,7 +798,15 @@ footer a {
     }
 
     .h1-court h1 {
-        font-size: 22px;
+        font-size: 24px;
+    }
+
+    section#contact::before {
+        font-size: 52px;
+    }
+
+    .h1-contact h1 {
+        font-size: 24px;
     }
     
     #carousel-1, 
@@ -852,4 +860,7 @@ footer a {
 
 @media only screen and (max-width: 460px) {
     /* Lanjutin bagian ini pada .about-img */
+    section {
+        padding: 64px 72px;
+    }
 }
