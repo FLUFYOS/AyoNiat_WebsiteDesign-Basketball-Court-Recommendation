@@ -863,4 +863,14 @@ footer a {
     section {
         padding: 64px 72px;
     }
+
+    .div-landing-img {
+        left: 10px;
+        bottom: 200px;
+    }
+
+    .div-img img {
+        top: 80px;
+        left: 80px;
+    }
 }
