@@ -882,6 +882,14 @@ footer a {
         font-size: 16px;
     }
 
+    .card {
+        width: 300px;
+    }
+
+    .card img {
+        width: 130px;
+    }
+
     .div-ending h6 {
         font-size: 12px;
     }
