@@ -896,6 +896,10 @@ footer a {
 }
 
 @media only screen and (max-width: 410px) {
+    .div-landing-welcome h3 {
+        font-size: 22px;
+    }
+    
     section#about::before {
         font-size: 48px;
     }
@@ -904,11 +908,27 @@ footer a {
         font-size: 20px;
     }
 
+    section#court {
+        padding-top: 100px;
+    }
+
     section#court::before {
         font-size: 42px;
     }
 
     .h1-court h1 {
+        font-size: 20px;
+    }
+
+    section#contact {
+        padding-top: 100px;
+    }
+
+    section#contact::before {
+        font-size: 42px;
+    }
+
+    .h1-contact h1 {
         font-size: 20px;
     }
 
