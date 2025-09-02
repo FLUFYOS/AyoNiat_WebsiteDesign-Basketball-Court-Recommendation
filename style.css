@@ -894,3 +894,22 @@ footer a {
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 410px) {
+    section#about::before {
+        font-size: 48px;
+    }
+
+    .div-h1 h1 {
+        font-size: 20px;
+    }
+
+    section#court::before {
+        font-size: 42px;
+    }
+
+    .h1-court h1 {
+        font-size: 20px;
+    }
+
+}
