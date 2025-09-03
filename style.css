@@ -935,5 +935,15 @@ footer a {
 }
 
 @media only screen and (max-width: 396px) {
+    section {
+        padding: 58px 64px;
+    }
     
+    .about-item {
+        width: 200px;
+    }
+
+    .about-item img {
+        width: 200px;
+    }
 }
