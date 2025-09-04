@@ -930,16 +930,19 @@ footer a {
     section#contact::before {
         font-size: 42px;
     }
-
+    
     .h1-contact h1 {
         font-size: 20px;
     }
-
 }
 
 @media only screen and (max-width: 396px) {
     section {
         padding: 58px 64px;
+    }
+    
+    .navbar {
+        padding: 28px 24px;
     }
 
     .div-landing-img {
@@ -971,5 +974,6 @@ footer a {
 @media only screen and (max-width: 356px) {
     section#court {
         padding: 64px 18px;
+        padding-top: 100px;
     }
 }
