@@ -863,7 +863,6 @@ footer a {
 }
 
 @media only screen and (max-width: 460px) {
-    /* Lanjutin bagian ini pada .about-img */
     section {
         padding: 64px 72px;
     }
@@ -961,5 +960,16 @@ footer a {
 
     .about-item img {
         width: 200px;
+    }
+
+    section#court {
+        padding: 64px 32px;
+        padding-top: 100px
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    section#court {
+        padding: 64px 18px;
     }
 }
