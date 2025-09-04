@@ -476,6 +476,14 @@ section#court {
     position: absolute;
 }
 
+.carousel-control-prev-icon {
+  filter: invert(1); /* jadi hitam */
+}
+
+.carousel-control-next-icon {
+  filter: invert(1); /* jadi hitam */
+}
+
 .location-div {
     display: flex;
     align-items: center;
