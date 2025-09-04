@@ -969,6 +969,10 @@ footer a {
         padding: 64px 32px;
         padding-top: 100px
     }
+
+    .card {
+        width: 250px;
+    }
 }
 
 @media only screen and (max-width: 356px) {
