@@ -216,6 +216,10 @@ h3 {
     width: 100px;
 }
 
+.div-landing-logo img {
+    width: 260px;
+}
+
 .a-info {
     display: flex;
     flex-direction: column;
@@ -813,8 +817,8 @@ footer a {
     #carousel-2, 
     #carousel-3,
     #carousel-4 {
-        width: 120px;
-        height: 210px;
+        width: 130px;
+        height: 212px;
     }
 
     #carousel-1 h1:nth-child(1), 
@@ -825,7 +829,7 @@ footer a {
     }
 
     .pipe-carousel {
-        width: 64px;
+        width: 74px;
     }
 
     .location-div {
@@ -937,6 +941,18 @@ footer a {
 @media only screen and (max-width: 396px) {
     section {
         padding: 58px 64px;
+    }
+
+    .div-landing-img {
+        bottom: 170px;
+    }
+
+    .div-landing-img img {
+        width: 70px;
+    }
+
+    .div-landing-logo img {
+        width: 220px;
     }
     
     .about-item {
