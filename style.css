@@ -477,11 +477,11 @@ section#court {
 }
 
 .carousel-control-prev-icon {
-  filter: invert(1); /* jadi hitam */
+  filter: invert(1);
 }
 
 .carousel-control-next-icon {
-  filter: invert(1); /* jadi hitam */
+  filter: invert(1);
 }
 
 .location-div {
@@ -732,6 +732,7 @@ footer a {
         right: 0;
         gap: 6px;
         background: linear-gradient(45deg, #f1ad47, #f9b152);
+        border-radius: 0 0 50px 50px;
         opacity: 0.5s;
         max-height: 0;
         overflow: hidden;
