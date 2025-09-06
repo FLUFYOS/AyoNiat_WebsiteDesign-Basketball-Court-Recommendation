@@ -476,6 +476,14 @@ section#court {
     position: absolute;
 }
 
+.carousel-control-prev-icon {
+  filter: invert(1); /* jadi hitam */
+}
+
+.carousel-control-next-icon {
+  filter: invert(1); /* jadi hitam */
+}
+
 .location-div {
     display: flex;
     align-items: center;
@@ -863,7 +871,6 @@ footer a {
 }
 
 @media only screen and (max-width: 460px) {
-    /* Lanjutin bagian ini pada .about-img */
     section {
         padding: 64px 72px;
     }
@@ -931,16 +938,19 @@ footer a {
     section#contact::before {
         font-size: 42px;
     }
-
+    
     .h1-contact h1 {
         font-size: 20px;
     }
-
 }
 
 @media only screen and (max-width: 396px) {
     section {
         padding: 58px 64px;
+    }
+    
+    .navbar {
+        padding: 28px 24px;
     }
 
     .div-landing-img {
@@ -961,5 +971,29 @@ footer a {
 
     .about-item img {
         width: 200px;
+    }
+
+    section#court {
+        padding: 64px 32px;
+        padding-top: 100px
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .div-footer h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    section#court {
+        padding: 64px 18px;
+        padding-top: 100px;
+    }
+
+    .div-footer h2 {
+        font-size: 20px;
     }
 }
