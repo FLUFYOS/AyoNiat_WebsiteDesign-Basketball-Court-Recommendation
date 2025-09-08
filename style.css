@@ -118,7 +118,7 @@ section::before {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    width: 30%;
+    width: 30px;
     height: 22px;
     cursor: pointer;
     z-index: 1001;
