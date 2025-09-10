@@ -233,6 +233,7 @@ h3 {
     background: linear-gradient(45deg, #f8e12f, #ff9d00);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
     padding: 0 0 10px 0;
 }
 
