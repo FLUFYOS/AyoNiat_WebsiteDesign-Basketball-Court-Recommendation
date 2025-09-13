@@ -1000,7 +1000,7 @@ footer a {
 
     section#about {
         padding: 58px 48px;
-        padding-top: 100px;
+        padding-top: 148px;
     }
 
     section#court {
@@ -1010,5 +1010,11 @@ footer a {
 
     .div-footer h2 {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .div-landing-welcome h1 {
+        font-size: 52px;
     }
 }
