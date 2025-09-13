@@ -1023,4 +1023,8 @@ footer a {
     .div-footer div:nth-of-type(1) h2 {
         font-size: 18px;
     }
+
+    .div-footer div:nth-of-type(2) h2 {
+        font-size: 18px;
+    }
 }
