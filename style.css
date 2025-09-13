@@ -990,6 +990,10 @@ footer a {
 }
 
 @media only screen and (max-width: 356px) {
+    .div-landing-welcome h1 {
+        font-size: 58px;
+    }
+
     section#about {
         padding: 58px 48px;
         padding-top: 100px;
