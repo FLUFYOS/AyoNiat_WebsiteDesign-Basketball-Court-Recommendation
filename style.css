@@ -990,12 +990,45 @@ footer a {
 }
 
 @media only screen and (max-width: 356px) {
+    .div-landing-welcome h1 {
+        font-size: 58px;
+    }
+
+    .div-landing-welcome h3 {
+        font-size: 20px;
+    }
+
+    section#about {
+        padding: 58px 48px;
+        padding-top: 148px;
+    }
+
     section#court {
-        padding: 64px 18px;
+        padding: 58px 18px;
         padding-top: 100px;
     }
 
     .div-footer h2 {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .div-landing-welcome h1 {
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .div-footer div:nth-of-type(1) h2 {
+        font-size: 18px;
+    }
+
+    .div-footer div:nth-of-type(2) h2 {
+        font-size: 18px;
+    }
+
+    .div-footer div:nth-of-type(2) h5 {
+        font-size: 14px;
     }
 }
