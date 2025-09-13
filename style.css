@@ -990,8 +990,13 @@ footer a {
 }
 
 @media only screen and (max-width: 356px) {
+    section#about {
+        padding: 58px 48px;
+        padding-top: 100px;
+    }
+
     section#court {
-        padding: 64px 18px;
+        padding: 58px 18px;
         padding-top: 100px;
     }
 
